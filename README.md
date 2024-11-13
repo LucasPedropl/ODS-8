@@ -2,7 +2,7 @@
 ### ODS 8 - Trabalho Decente e Crescimento Econômico
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-:hammer: Constuindo
+# :hammer: Constuindo:
 
 - Nome do projeto: ODS 8
 - Nome dos(as) integrantes da equipe: Bruno Meleiro Dutra, carlos Eduardo Mazalli Drago, Pedro Lucas Mota
