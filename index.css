@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+}
+
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+nav{
+
+}
+
+#navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#resumo{
+    background-color: #A31C44;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
