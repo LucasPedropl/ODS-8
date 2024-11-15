@@ -1,27 +1,105 @@
-*{
-    margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto Condensed', serif;
+    font-optical-sizing: auto;
 }
 
-main{
-    margin-left: 20%;
-    margin-right: 20%;
+a {
+    text-decoration: none;
 }
 
-nav{
-
+span {
+    color: #810c2f;
+    font-size: 30px;
 }
 
-#navegacao{
+#navegacao {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
+    list-style: none;
 }
 
-#resumo{
-    background-color: #A31C44;
+#resumo {
+    background-color: #a31c44;
+}
+
+#banner {
+    margin-left: 20%;
+    margin-right: 20%;
     color: white;
     display: flex;
     flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#texto {
+    border: 5px solid black;
+    padding: 10px;
+}
+
+#icone img {
+    width: 80px;
+    border: 5px solid black;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1200px) {
+    #banner {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    #banner {
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column; /* Coloca as divs em coluna */
+        text-align: center;
+    }
+
+    #navegacao {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #texto {
+        margin-bottom: 20px;
+    }
+
+    #icone img {
+        width: 60px; /* Reduz o tamanho da imagem para telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    #banner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #navegacao {
+        font-size: 14px;
+    }
+
+    #icone img {
+        width: 50px;
+    }
+
+    span {
+        font-size: 24px;
+    }
+
+    #texto h1 {
+        font-size: 20px; /* Reduz o tamanho do título em telas muito pequenas */
+    }
 }
